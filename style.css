@@ -1,0 +1,37 @@
+h1,h2,h3,h4 {
+  color: white;
+}
+button {
+  color: white;
+  height: 90px;
+  width: 90px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 35px;
+  font-weight: bolder;
+}
+button:hover {
+  background-color: lightblue;
+}
+#main {
+  position: relative;
+  height: 283px;
+  width: 283px;
+  box-shadow: 1px 1px 25px white;
+}
+body {
+  background-image: url("https://pressstart.vip/images/uploads/assets/graveyard.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#recent{
+  font-size: 20px;
+  height: 30px;
+  display: none;
+}
+#container{
+  padding-left: 100px;
+}
